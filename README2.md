@@ -1,7 +1,8 @@
 # Python scripts for comparing A2010 and PAM models
 
 Martin Montes, SSAI-NASA
-Lanham, April 30, 2020
+Lanham, April 30, 
+2020
 
 Extraction of AERONET parameters
 The main script is located in parseAEROglobe.py and can extract all AERONET aerosol properties excluding phase functions. Main calls the method parse_aero and is calling an iterative function (parse_line) to parse line-by-line each AERONET file with *.all extension. The result is saved as a csv file. Notice that an additional aerosol propertie is computed for each record based on AODa measured at two wavelengths (the Angstrom exponent for absorption within 870-1020 nm).
